@@ -82,7 +82,7 @@ body #article1 p {
   background-color: #4077f2;
   border-top: 5px;
   float: right;
-  padding: 1% 11.8% 0%;
+  padding: 1% 12% 0%;
   margin: 1%;
 }
 /* line 31, ../sass/screen.scss */
@@ -95,12 +95,12 @@ body article p {
   background-color: #4077f2;
   border-top: 5px;
   float: right;
-  padding: 1% 11.8% 0%;
+  padding: 1% 12% 0%;
   margin: 1%;
 }
 /* line 42, ../sass/screen.scss */
 body #img1 {
-  padding: 0% 8% 0% 0%;
+  padding: 0% 8.3% 0% 0%;
   clear: both;
   float: right;
 }
@@ -144,7 +144,7 @@ body #img1 a {
 }
 /* line 78, ../sass/screen.scss */
 body #img {
-  padding: 0% 8% 0% 0%;
+  padding: 0% 8.3% 0% 0%;
   clear: both;
   float: right;
 }
