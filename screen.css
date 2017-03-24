@@ -1,0 +1,243 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+
+/* line 17, ../sass/screen.scss */
+body {
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+header {
+  position: absolute;
+  right: 14.5%;
+  top: 24%;
+  font-size: 230%;
+  font-family: calibri;
+  font-weight: bold;
+  color:rgb(10, 35, 61);
+}
+@media (max-width: 400px){
+  header {
+    position: absolute;
+    right: 14.5%;
+    top: 31%;
+    font-size: 230%;
+    font-family: calibri;
+    font-weight: bold;
+    color:rgb(10, 35, 61);
+  }
+}
+body #img1 {
+  position: absolute;
+  right: 3%;
+  top: 56%;
+}
+body #img1 p {
+  background-color: #4077f2;
+  padding: 3% 12% 0%;
+  margin: 0% 32% 3% 0%;
+}
+#imgBackground1{
+  background: rgba(0, 0, 0, 0.28);
+  padding: 3% 63% 35% 5%;
+  position: absolute;
+}
+/* line 46, ../sass/screen.scss */
+body #img1 .desc1 {
+  padding: 2% 0% 0% 0%;
+}
+/* line 49, ../sass/screen.scss */
+body #img1 #readmore1 {
+  font-family: cursive;
+  position: absolute;
+  margin: -8% 0% 0% 0%;
+  background: rgba(64, 119, 242, 0.58);
+  padding: 1% 4% 2% 4%;
+}
+@media (max-width: 300px){
+  body #img1 #readmore1 {
+      margin: -10% 0% 0% 0%;
+      float: left;
+  }
+}
+/* line 55, ../sass/screen.scss */
+body #img1 #readmore1 a {
+  color: white;
+  text-decoration: none;
+}
+/* line 59, ../sass/screen.scss */
+body #img1 #readmore1 a:hover {
+  font-weight: bold;
+  -webkit-user-drag: none;
+}
+/* line 64, ../sass/screen.scss */
+body #img1 .desc1 a {
+  font-size: 1.55em;
+  font-family: calibri;
+  color: #757575;
+  -webkit-user-drag: none;
+}
+@media screen and (max-width: 43.75em) {
+    body #img1 .desc1 a {
+      font-size: 1em;
+      /*line-height: 1.375;*/
+      font-family: calibri;
+      color: #757575;
+      -webkit-user-drag: none;
+    }
+}
+/* line 70, ../sass/screen.scss */
+body #img1 a:hover {
+  color: black;
+}
+/* line 73, ../sass/screen.scss */
+body #img1 a {
+  color: white;
+  text-decoration: none;
+}
+/* line 78, ../sass/screen.scss */
+body #img {
+  position: absolute;
+  right: 3%;
+  top: 117%;
+}
+body #img p {
+  background-color: #4077f2;
+  padding: 3% 12% 0%;
+  margin: 6% 32% 3% 0%;
+}
+#imgBackground{
+  background: rgba(0, 0, 0, 0.28);
+  padding: 6% 63% 35% 5%;
+  position: absolute;
+}
+#p2{
+  color: white;
+  position: absolute;
+  font-family: calibri;
+  font-size: 185%;
+  text-align: center;
+  padding: 6%;
+}
+@media screen and (max-width: 400px){
+  #p2 {
+      font-size: 128%;
+  }
+}
+/* line 82, ../sass/screen.scss */
+body #img .desc {
+  padding: 2% 0% 0% 0%;
+}
+/* line 85, ../sass/screen.scss */
+body #img #readmore {
+  font-family: cursive;
+  position: absolute;
+  margin: -8% 0% 0% 0%;
+  background: rgba(64, 119, 242, 0.58);
+  padding: 1% 4% 2% 4%;
+}
+@media (max-width: 300px){
+  body #img #readmore {
+      margin: -10% 0% 0% 0%;
+      float: left;
+  }
+}
+/* line 91, ../sass/screen.scss */
+body #img #readmore a {
+  color: white;
+  text-decoration: none;
+  font-size: 89%;
+}
+/* line 95, ../sass/screen.scss */
+body #img #readmore a:hover {
+  font-weight: bold;
+  -webkit-user-drag: none;
+}
+/* line 100, ../sass/screen.scss */
+body #img .desc a {
+  font-size: 1.85em;
+  font-family: calibri;
+  color: #757575;
+  text-decoration: none;
+  -webkit-user-drag: none;
+}
+@media screen and (max-width: 43.75em) {
+  body #img .desc a {
+        font-size: 1em;
+        /*line-height: 1.375;*/
+        font-family: calibri;
+        color: #757575;
+        -webkit-user-drag: none;
+      }
+}
+/* line 106, ../sass/screen.scss */
+body #img a:hover {
+  color: black;
+}
+/* line 109, ../sass/screen.scss */
